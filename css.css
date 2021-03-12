@@ -1,7 +1,25 @@
-.heading{
+.heading-box{
+    background-color: grey;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    
+}
+.heading-1{
+   flex:1;
+   align-items: center;
+}
+.heading-2{
+    flex:1;
+
+}
+.paperbutton-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+
+}
+.footing{
+    background-color: grey;
 }
