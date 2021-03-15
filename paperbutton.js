@@ -20,7 +20,10 @@
   }
 
   function setup() {
-    createCanvas(320, 260);
+    createCanvas(320, 240);
+    //move canvas to correct location
+    //document.getElementById('defaultCanvas0').parentElement = document.getElementById('canvasContainer');
+    document.getElementById('canvasContainer').appendChild(document.getElementById('defaultCanvas0'));
     // Create the video
     video = createCapture(VIDEO);
     video.size(320, 240);

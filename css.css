@@ -15,12 +15,21 @@
 }
 .paperbutton-box{
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row-reverse;
   
 
 }
 
+#defaultCanvas0{
+    flex: 1;
+    border:black 3px solid;
+
+}
+#button-prompt{
+    flex: 1;
+    border:black 3px solid;
+
+}
 .footer{
     position: fixed;
     left: 0;
